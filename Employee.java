@@ -15,7 +15,7 @@ class register{
    mapEmployee.put(new Employee(1,"Ravi"),1);
 }
 
-//ans
+/*ans*/
 
 class Employee{
 	int id;
@@ -24,7 +24,7 @@ class Employee{
 		 this.id = id;
 		 this.name = name;
 	}
-	//I told her to add hashcode and equals to avoid duplicate entry. she told me to write equals and hashcode method so wrote code for equals
+	/*I told her to add hashcode and equals to avoid duplicate entry. she told me to write equals and hashcode method so wrote code for equals*/
 	equals(Employee o){
 			
 	    return (this.o.id == o.id) && (this.name.equals(name));
@@ -33,7 +33,7 @@ class Employee{
 	}
 }
 class register{
-	//change int to integer
+	/*change int to integer*/
    Map<Employee, Integer> mapEmployee = new Hashmap<>();
    mapEmployee.put(new Employee(1,"Ravi"),1);
    mapEmployee.put(new Employee(1,"Ravi"),1);
